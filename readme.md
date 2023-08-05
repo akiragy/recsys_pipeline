@@ -1,10 +1,12 @@
+PyTorch + Redis + Elasticsearch + Feast + Triton + Flask构建推荐系统，数据处理->模型训练->组件部署->后端服务
+=================
 
 以推荐系统中最经典的MovieLens数据集为例，介绍推荐系统从离线到在线的全流程，所有操作都可以在一台笔记本上完成，虽然缝合的东西多，但所有东西都被封在了Conda和Docker里，不会对本地环境有任何伤害。
 
 Conda环境安装pandas和PyTorch模拟工业界的HDFS -> Spark -> GPU集群的离线模型训练。
 Conda环境安装Flask模拟工业界的Spring推荐后端。
-Docker环境安装Redis + Elasticsearch + Feast Feature Store + Triton Inference Server四大件，用本机localhost调用Docker来模拟工业界的推荐后端RPC调用各个组件。其中，Redis用于存储召回所需的user标签和向量，Elasticsearch用于构建召回所需的item标签和向量索引，Feast用于存储排序所需的user和item特征，Triton用作排序所需的实时打分引擎。
-整个推荐系统的架构图如下，下面将分离线、离线到在线、在线三个阶段来介绍召回和排序模块在工业级推荐系统的开发流程。
+Docker环境安装Redis + Elasticsearch + Feast Feature Store + Triton Inference Server四个组件，用本机localhost调用Docker来模拟工业界的推荐后端RPC调用各个组件。其中，Redis用于存储召回所需的user标签和向量，Elasticsearch用于构建召回所需的item标签和向量索引，Feast用于存储排序所需的user和item特征，Triton用作排序所需的实时打分引擎。
+整个推荐系统的架构图如下，下面将分离线、离线到在线、在线三个阶段来介绍召回和排序模块的开发部署流程。
 ![img.png](pic/img_head1.png)
 
 # 1 离线
