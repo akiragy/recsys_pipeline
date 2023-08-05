@@ -1,0 +1,163 @@
+
+2
+
+user"useridJml
+‚¹¦ğï®›‚¹¦ğï®›
+2
+
+item"itemidJml
+‚¹¦ˆÇ¹›‚¹¦ˆÇ¹›
+9
+
+__dummy"
+__dummy_idJml
+‚¹¦€…Â›‚¹¦€…Â›1"$cd84a704-154d-4dd3-8e6b-63672b51a3ef*’¹¦ÀôÇ2ø
+­
+item_fvmlitem"
+item_g1"
+item_g2"
+item_g3"
+item_g4"
+item_g5"
+item_g6"
+item_g7"
+item_g8"
+item_g9"
+item_g10"
+item_g11"
+item_g12"
+item_g13"
+item_g14"
+item_g15"
+item_g16"
+item_g17"
+item_g182€š:timestamp_field*created_timestamp_columnZ/home/hs/item_entity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢item_source@b
+
+itemidF
+‚¹¦¸Ë›’¹¦ ™ùü
+‘ôš¥˜°Û¹¦
+¹¦›’¹¦2Ÿ
+Õ
+user_fvmluser"
+
+gender"
+age"
+
+occupation"
+user_g1_imp"
+user_g1_clk"
+user_g2_imp"
+user_g2_clk"
+user_g3_imp"
+user_g3_clk"
+user_g4_imp"
+user_g4_clk"
+user_g5_imp"
+user_g5_clk"
+user_g6_imp"
+user_g6_clk"
+user_g7_imp"
+user_g7_clk"
+user_g8_imp"
+user_g8_clk"
+user_g9_imp"
+user_g9_clk"
+user_g10_imp"
+user_g10_clk"
+user_g11_imp"
+user_g11_clk"
+user_g12_imp"
+user_g12_clk"
+user_g13_imp"
+user_g13_clk"
+user_g14_imp"
+user_g14_clk"
+user_g15_imp"
+user_g15_clk"
+user_g16_imp"
+user_g16_clk"
+user_g17_imp"
+user_g17_clk"
+user_g18_imp"
+user_g18_clk2€š:timestamp_field*created_timestamp_columnZ/home/hs/user_entity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢user_source@b
+
+useridE
+‚¹¦ğ½’œ’¹¦ ıÍÅ
+˜ôš¥¸é†d¹¦
+¹¦›’¹¦:­
+Œ
+ml_itemmlü
+item_fv
+item_g1
+item_g2
+item_g3
+item_g4
+item_g5
+item_g6
+item_g7
+item_g8
+item_g9
+item_g10
+item_g11
+item_g12
+item_g13
+item_g14
+item_g15
+item_g16
+item_g17
+item_g18
+‚¹¦À²˜‚¹¦À²˜:Õ
+´
+ml_userml¤
+user_fv
+
+gender
+age
+
+occupation
+user_g1_imp
+user_g1_clk
+user_g2_imp
+user_g2_clk
+user_g3_imp
+user_g3_clk
+user_g4_imp
+user_g4_clk
+user_g5_imp
+user_g5_clk
+user_g6_imp
+user_g6_clk
+user_g7_imp
+user_g7_clk
+user_g8_imp
+user_g8_clk
+user_g9_imp
+user_g9_clk
+user_g10_imp
+user_g10_clk
+user_g11_imp
+user_g11_clk
+user_g12_imp
+user_g12_clk
+user_g13_imp
+user_g13_clk
+user_g14_imp
+user_g14_clk
+user_g15_imp
+user_g15_clk
+user_g16_imp
+user_g16_clk
+user_g17_imp
+user_g17_clk
+user_g18_imp
+user_g18_clk
+‚¹¦°¡×‚¹¦°¡×RÚ
+k
+,feast.infra.online_stores.sqlite.SqliteTable";
+-/home/hs/ml/feature_repo/data/online_store.db
+ml_item_fv
+k
+,feast.infra.online_stores.sqlite.SqliteTable";
+-/home/hs/ml/feature_repo/data/online_store.db
+ml_user_fvb”timestamp_field*created_timestamp_columnZ/home/hs/item_entity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢item_sourceªmlb”timestamp_field*created_timestamp_columnZ/home/hs/user_entity.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢user_sourceªmlz*
+ml$aff8f120-30cb-46a3-8fee-36cfef6eaca6

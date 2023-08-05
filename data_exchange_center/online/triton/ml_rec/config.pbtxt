@@ -1,0 +1,19 @@
+name: "ml_rec"
+platform: "onnxruntime_onnx"
+max_batch_size: 256
+input [
+{
+    name: "ml_input",
+    data_type: TYPE_FP32,
+    dims: [59]
+}
+]
+output [
+{
+    name: "ml_output",
+    data_type: TYPE_FP32,
+    dims: [1]
+    reshape: { shape: [ ] }
+}
+]
+default_model_filename: "model"
