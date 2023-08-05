@@ -81,4 +81,4 @@ RECALL_REDIS_FILTER_KEY = "filter"
 ITEM_ES_INDEX = "item_index"
 MAX_USERID = 6040
 MAX_ITEMID = 3952
-ES_KEY = "XvQTkEiJj47=ZSA-epOG"
+ES_KEY = "your key from docker"
