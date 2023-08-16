@@ -1,5 +1,7 @@
-PyTorch + Redis + Elasticsearch + Feast + Triton + Flask构建推荐系统，数据处理->模型训练->组件部署->后端服务
+PyTorch + Redis + Elasticsearch + Feast + Triton + Flask构建推荐系统，倒排/向量召回 + DeepFM排序 + 推理引擎 + 后端服务
 =================
+
+中文 | [English](./readme-en.md)
 
 以推荐系统中最经典的MovieLens数据集为例，介绍推荐系统从离线到在线的全流程，所有操作都可以在一台笔记本上完成，虽然缝合的东西多，但所有东西都被封在了Conda和Docker里，不会对本地环境有任何伤害。
 
